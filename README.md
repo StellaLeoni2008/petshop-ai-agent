@@ -1,10 +1,10 @@
 <h1 align="center"> 🐾 Projeto Agente de IA para PetShop </h1>
 <p align="center">
 
-<img width="1000" height="600" alt="Captura de Tela 2026-05-11 às 11 22 35" src="https://github.com/user-attachments/assets/4f5c8e92-5025-41e5-9291-931dda7afa98" />
+<img width="900" height="500" alt="ChatGPT Image 11 de jun  de 2026, 11_45_41" src="https://github.com/user-attachments/assets/9d04298f-7e74-43aa-9ad2-a16444273317" />
 
 
-## 💻 Linguagem usada no projeto
+## 💻 Tecnologias usadas no projeto
 <img loading="lazy" src="https://img.shields.io/badge/Python-darkblue"/>      <img loading="lazy" src="https://img.shields.io/badge/LangChain-grey"/>      <img loading="lazy" src="https://img.shields.io/badge/LangGraph-lightgrey"/>      <img loading="lazy" src="https://img.shields.io/badge/LangSmith-darkgray"/>      <img loading="lazy" src="https://img.shields.io/badge/FAISS-red"/>      <img loading="lazy" src="https://img.shields.io/badge/JSON-green"/>      
 
 ---
@@ -33,6 +33,11 @@ Durante o desenvolvimento, foram aplicados conceitos modernos de aplicações co
 - Fluxos inteligentes com múltiplas etapas
 - Integração com ferramentas externas
 - Monitoramento e tracing da aplicação
+
+---
+
+## 🖼️ Demonstração do projeto
+<img width="900" height="500" alt="Captura de Tela 2026-05-11 às 11 22 35" src="https://github.com/user-attachments/assets/4f5c8e92-5025-41e5-9291-931dda7afa98" />
 
 ---
 
