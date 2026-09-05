@@ -1,111 +1,128 @@
-<h1 align="center"> 🐾 Projeto Agente de IA para PetShop </h1>
+<h1 align="center"> 🐾 PetShop AI Agent Project </h1>
 <p align="center">
 
 <img width="900" height="500" alt="ChatGPT Image 11 de jun  de 2026, 11_45_41" src="https://github.com/user-attachments/assets/9d04298f-7e74-43aa-9ad2-a16444273317" />
 
+## 💻 Technologies Used in the Project
 
-## 💻 Tecnologias usadas no projeto
-<img loading="lazy" src="https://img.shields.io/badge/Python-darkblue"/>      <img loading="lazy" src="https://img.shields.io/badge/LangChain-grey"/>      <img loading="lazy" src="https://img.shields.io/badge/LangGraph-lightgrey"/>      <img loading="lazy" src="https://img.shields.io/badge/LangSmith-darkgray"/>      <img loading="lazy" src="https://img.shields.io/badge/FAISS-red"/>      <img loading="lazy" src="https://img.shields.io/badge/JSON-green"/>      
-
----
-
-## 📌 Sobre
-
-Este projeto foi desenvolvido durante o curso **Alura – Projeto de Agentes Inteligentes: desenvolvimento com LangChain, LangGraph e LangSmith**.
-
-O objetivo do projeto foi aprender, na prática, como construir agentes conversacionais utilizando IA generativa, ferramentas externas e fluxos inteligentes.
-
-O sistema simula um assistente virtual para um pet shop, capaz de:
-
-- responder perguntas dos usuários
-- consultar saldo de pontos de clientes
-- buscar informações em documentos utilizando RAG (Retrieval-Augmented Generation)
-
-Durante o desenvolvimento, foram aplicados conceitos modernos de aplicações com LLMs, incluindo integração com tools, fluxos baseados em grafos, embeddings, armazenamento vetorial com FAISS e monitoramento utilizando LangSmith.
+<img loading="lazy" src="https://img.shields.io/badge/Python-darkblue"/>      <img loading="lazy" src="https://img.shields.io/badge/LangChain-grey"/>      <img loading="lazy" src="https://img.shields.io/badge/LangGraph-lightgrey"/>      <img loading="lazy" src="https://img.shields.io/badge/LangSmith-darkgray"/>      <img loading="lazy" src="https://img.shields.io/badge/FAISS-red"/>      <img loading="lazy" src="https://img.shields.io/badge/JSON-green"/>
 
 ---
 
-## ⚙️ Funcionalidades
-- Assistente virtual conversacional
-- Consulta de saldo de pontos de clientes
-- Busca de informações em documentos
-- Recuperação de contexto utilizando RAG
-- Fluxos inteligentes com múltiplas etapas
-- Integração com ferramentas externas
-- Monitoramento e tracing da aplicação
+## 📌 About
+
+This project was developed during the **Alura – Intelligent Agents Project: Development with LangChain, LangGraph, and LangSmith** course.
+
+The goal of the project was to learn, through hands-on practice, how to build conversational agents using generative AI, external tools, and intelligent workflows.
+
+The system simulates a virtual assistant for a pet shop, capable of:
+
+* Answering user questions
+* Checking customers' loyalty points balance
+* Retrieving information from documents using RAG (Retrieval-Augmented Generation)
+
+During development, modern concepts for LLM-based applications were applied, including tool integration, graph-based workflows, embeddings, vector storage with FAISS, and application monitoring using LangSmith.
 
 ---
 
-## 🖼️ Demonstração do projeto
-<img width="900" height="500" alt="Captura de Tela 2026-05-11 às 11 22 35" src="https://github.com/user-attachments/assets/4f5c8e92-5025-41e5-9291-931dda7afa98" />
+## ⚙️ Features
+
+* Conversational virtual assistant
+* Customer loyalty points balance lookup
+* Information retrieval from documents
+* Context retrieval using RAG
+* Intelligent multi-step workflows
+* Integration with external tools
+* Application monitoring and tracing
 
 ---
 
-## 🧠 Conceitos Fundamentais Praticados
-Durante o desenvolvimento deste projeto, foram aplicados conceitos importantes relacionados à engenharia de agentes e IA generativa, incluindo:
-- Criação de agentes inteligentes com LangChain
-- Fluxos conversacionais utilizando LangGraph
-- Monitoramento e tracing com LangSmith
-- Tool Calling
-- Sistemas RAG (Retrieval-Augmented Generation)
-- Embeddings e busca semântica
-- Armazenamento vetorial com FAISS
-- Processamento e chunking de documentos PDF
-- Engenharia de prompts
-- Estruturação de aplicações modulares em Python
-- Integração com modelos LLM utilizando Groq
-- IA conversacional
+## 🖼️ Project Demo
+
+<img width="900" height="500" alt="PetShop AI Agent Demo" src="https://github.com/user-attachments/assets/4f5c8e92-5025-41e5-9291-931dda7afa98" />
 
 ---
 
-## 🔄 Fluxo do sistema
+## 🧠 Key Concepts Practiced
+
+During the development of this project, important concepts related to agent engineering and generative AI were applied, including:
+
+* Building intelligent agents with LangChain
+* Conversational workflows using LangGraph
+* Monitoring and tracing with LangSmith
+* Tool Calling
+* RAG systems (Retrieval-Augmented Generation)
+* Embeddings and semantic search
+* Vector storage with FAISS
+* PDF document processing and chunking
+* Prompt engineering
+* Structuring modular Python applications
+* Integration with LLM models using Groq
+* Conversational AI
+
+---
+
+## 🔄 System Flow
+
 ```text
-Usuário → Agente → Tools/RAG → Recuperação de Contexto → Resposta Gerada
+User → Agent → Tools/RAG → Context Retrieval → Generated Response
 ```
 
 ---
 
-## ▶️ Como executar o projeto
+## ▶️ How to Run the Project
 
-1. Clone este repositório:
+1. Clone this repository:
+
 ```bash
 git clone https://github.com/StellaLeoni2008/agente-petshop.git
 ```
-2. Crie um ambiente virtual:
+
+2. Create a virtual environment:
+
 ```bash
 python -m venv venv
 ```
-3. Ative o ambiente virtual:
+
+3. Activate the virtual environment:
 
 Windows
+
 ```bash
 venv\Scripts\activate
 ```
+
 macOS/Linux
+
 ```bash
 source venv/bin/activate
 ```
-4. Instale as dependências:
+
+4. Install the dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
-5. Configure as variáveis de ambiente necessárias.
-6. Execute o arquivo principal do projeto.
 
---- 
+5. Configure the required environment variables.
 
-## 📚 Aprendizados
+6. Run the project's main file.
 
-Este projeto permitiu aprofundar conhecimentos sobre aplicações modernas de IA conversacional, além da construção de agentes inteligentes capazes de utilizar ferramentas externas e recuperação de contexto para responder perguntas de forma mais eficiente.
+---
 
-Também foi possível compreender melhor como frameworks como LangChain e LangGraph podem ser utilizados para estruturar fluxos inteligentes e aplicações baseadas em LLMs.
+## 📚 Key Learnings
+
+This project provided a deeper understanding of modern conversational AI applications, as well as the development of intelligent agents capable of using external tools and context retrieval to answer questions more effectively.
+
+It also provided a better understanding of how frameworks such as LangChain and LangGraph can be used to structure intelligent workflows and LLM-based applications.
 
 <br>
 
-## Autores 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/237313711?v=4" width=115><br><sub>Stella Leoni</sub>](https://github.com/StellaLeoni2008) | 
-| :---: |
+## Author
 
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/237313711?v=4" width=115><br><sub>Stella Leoni</sub>](https://github.com/StellaLeoni2008) |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 <p align="right">
 11/05/2026
+</p>
